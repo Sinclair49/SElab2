@@ -36,7 +36,6 @@ public class TicketService {
         return ticketRepository.getOne(id);
     }
 
-    @Transactional
     public void deleteById(Long id) {
         ticketRepository.deleteById(id);
     }
